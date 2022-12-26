@@ -1,90 +1,15 @@
-<style> 
-    .button {
-        /* margin sets spacing outside of of element */
-        margin: 8px;
-        vertical-align: top;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-    /* button is a css selector */
-    /* subscribe is the class we want to apply it to */
-    .subscribe-button { 
-        /* property: value */
-        background-color: rgb(215, 32, 32);
-        color: white;
-        border: none; 
-        
-        /* make corners round */
-        border-radius: 2px;
+<!DOCTYPE html>
+<html>
+    <head>
 
-        /* turns cursor into pointer on hover over */
-        cursor: pointer;
+        <title>buttons</title>
+        <!-- link is a void element, thus doesn't need a closing tag -->
+        <link rel="stylesheet" href="css/button.css">
+    </head>
+    <body>
+        <button class="button subscribe-button">SUBSCRIBE</button>
+        <button class="button join-button">JOIN my channel</button>
+        <button class="button tweet-button">Tweet</button>
+    </body>
+</html>
 
-        transition: opacity 0.15s;
-    }
-
-    /* hover is a sudo class */
-    .subscribe-button:hover {
-        opacity: 0.8;
-    }
-
-    .subscribe-button:active {
-        opacity: 0.5;
-    }
-
-    .join-button {
-        background-color: white;
-        border-color: rgb(59, 59, 240);
-        border-style: solid;
-        border-width: 1px;
-        color:  rgb(59, 59, 240);
-
-        border-radius: 2px;
-        cursor: pointer;
-        /* transition takes what you want to transitions and how long */
-        transition: background-color 1s, color 1s;
-
-        padding-top: 9px;
-        padding-bottom: 9px;
-        vertical-align: top;
-    }
-
-    .join-button:hover {
-        color:  white;
-        background-color: rgb(59, 59, 240);
-        opacity: 0.8;
-    }
-
-    .join-button:active {
-        opacity: 0.5;
-    }
-
-    .tweet-button {
-        background-color: rgb(28, 138, 223);
-        color: white;
-        border: none;
-        height: 36px;
-        width: 80px;
-        border-radius: 20px;
-        font-weight: bold;
-        font-size: 15px;
-        cursor: pointer;
-        transition: box-shadow 0.15s;
-
-    }
-
-    .tweet-button:hover {
-        /* this is how we add shadow to this element
-        1st arg = how far right the shadow extends beyond the element 
-        2nd arg = how far below the shadow extend beyond the element
-        3rd arg = how blured the shadow will be
-        4th arg = color of the shadow */
-        box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
-    }
-</style>
-
-<button class="button subscribe-button">SUBSCRIBE</button>
-<button class="button join-button">JOIN my channel</button>
-<button class="button tweet-button">Tweet</button>
