@@ -1,0 +1,52 @@
+.images-container {
+    margin-right: 50px;
+    margin-bottom: 100px;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* text-align: center; */
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.15);
+    border-radius: 2px;
+}
+
+p {
+    line-height: 0px;
+    text-align: left;
+}
+.name-text {
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.portrait-image {
+    display: inline-block;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.couples {
+    height: 170px;
+    width: 170px;
+}
+
+.friends-count {
+    font-family: Arial;
+    color: rgb(174, 160, 160);
+    font-size: 12px;
+}
+
+.add-friend-button {
+    background-color: rgb(8, 133, 242);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+    
+}
