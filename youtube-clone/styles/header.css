@@ -3,6 +3,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(288,288,288);
+}
+
+body {
+    padding-top: 80px;
+ 
 }
 
 .left-section {
@@ -39,6 +52,7 @@
 
 .youtube-logo {
     height: 20px;
+    margin-left: 12px;
 }
 
 .search-bar {
@@ -51,6 +65,8 @@
     border-radius: 2px;
     box-shadow: inset 1px 2px 3px rgba(0,0,0,.05);  /*inset sets inside of the box */
     width: 0;
+
+    
 }
 
 .search-bar::placeholder {
