@@ -56,6 +56,7 @@ body {
 }
 
 .search-bar {
+   
     flex: 1;
     height: 36px;
     padding-left: 10px;
@@ -65,7 +66,7 @@ body {
     border-radius: 2px;
     box-shadow: inset 1px 2px 3px rgba(0,0,0,.05);  /*inset sets inside of the box */
     width: 0;
-
+    position: relative;
     
 }
 
@@ -87,6 +88,29 @@ body {
     border-radius: 3px;
 
 }
+
+
+.search-button .tooltip {
+    position: absolute;
+    background-color: grey;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    opacity: 0;
+    bottom: -20px;
+    transition: 0.15s;
+    pointer-events: none;
+
+}
+
+.search-button:hover .tooltip {
+    opacity: 1;
+}
+
 
 .search-icon {
     height: 25px;
